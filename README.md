@@ -5,6 +5,7 @@ DB接続情報は .env (.env_sampleをRenameして.envにしてください）�
 
 adminで管理者権限があたえられ会議室の追加など行えます。
 
+# PostgreSQLの設定
 sudo -u postgres psql
 
 -- 1. 会議室予約用のデータベースを作成
